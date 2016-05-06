@@ -1,14 +1,14 @@
 Pancake HipChat bot (Dockerized)
 ============
-Simple bot created for fun. There is also the unsupported [version](https://github.com/idooo/pancake-campfire-bot) for Campfire
+Simple bot created for fun. 
+Dockerized from https://github.com/idooo/pancake-hipchat-bot
 
-#### Install and run
+#### Install and run using Docker on a Docker host.
 
 ###Example:
 ```
 docker run -d -e CONF_NAME='Pancake' -e CONF_ROOMS="RoomName" -e CONF_API_KEY="yourapikey" --name pancake-bot jeremygrajales/pancake-hipchat-bot
 ```
-
 
 ### License
 
