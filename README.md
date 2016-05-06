@@ -5,10 +5,11 @@ Dockerized from https://github.com/idooo/pancake-hipchat-bot
 
 #### Install and run using Docker on a Docker host.
 
-###Example:
+### Example:
 ```
 docker run -d -e CONF_NAME='Pancake' -e CONF_ROOMS="RoomName" -e CONF_API_KEY="yourapikey" --name pancake-bot jeremygrajales/pancake-hipchat-bot
 ```
+
 
 ### License
 
